@@ -1,20 +1,24 @@
-/*Divisões*/
-    /*Header*/
 @charset "UTF-8";
-
 * {
     margin: 0;
     padding: 0;
 }
+:root {
+   --cor1:#2E463F; /**/
+   --cor2:#387060;
+   --cor3:#00F0AA;
+   --cor4:#349B7D;
+   --cor5:#349B7D;
+}
 
 body,html {
     height: 100vh;
-    background-color: rgb(84, 228, 84);
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color:var(--cor4) ;
 }
-
- /*Header*/
+/*Divisões*/
+    /*Header*/
+ /*-----------------------Header----------------------------*/
 #header {
     height:15vh ;
     display: flex;
@@ -25,7 +29,7 @@ body,html {
 header > img {
     height: 15vh;
 }
- /* Header  */
+ /*-----------------------Header----------------------------*/
 
  /* Article */
  #agendamento > a {
@@ -94,31 +98,16 @@ article {
     
 }
 
-
-article > h2 {
-    display: inline-block;
-   padding-top:10px ;
+ article {
+    padding-top: 10px;
+ }
+article div  h2 {
+   
    color: rgb(255, 255, 255);
    text-align: justify;
    padding: 20px;
-   height: vh;
+   display: inline-block;
+   background-color:#38706085;
    
-   
-}
-
-.bloco{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-}
-.linha {
-    background-color: rgb(0, 0, 0);
-    height: 3px;
-    width: 75vw;
-    justify-content: center;
-    align-items: center;
-    margin-top: auto;
-    border-radius: 10px;
+   border-radius: 20px;
 }
