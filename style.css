@@ -89,6 +89,7 @@ article {
     background-image: url(IMAGENS/IMGP.jpg);
     background-position: center center;
     background-repeat: no-repeat;
+    border-radius: 150px;
 
 }
 
@@ -98,7 +99,7 @@ article {
 }
 
  article {
-    padding: 15px 0px;
+    padding: 5px 0px;
 
  }
 article div  h2 {
@@ -107,6 +108,22 @@ article div  h2 {
    padding: 20px;
    display: inline-block;
    background-color:#38706085;
-   
    border-radius: 20px;
+}
+
+#text1 {
+    background-color: rgba(255, 255, 255, 0.247);
+    color: rgb(255, 255, 255);   
+}
+#text2 {
+    background-color:#38706085;
+    color: rgb(255, 255, 255);   
+}
+#text3 {
+    background-color: rgba(255, 255, 255, 0.247);
+    color: rgb(255, 255, 255);   
+}
+#text4 {
+    background-color:#38706085;
+    color: rgb(255, 255, 255);   
 }
