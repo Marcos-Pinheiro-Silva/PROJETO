@@ -42,17 +42,20 @@ nav > div > h1 {
 nav > div > h1 > span{
    padding-left: 10px;
 }
-
-body > div > i {
+/*----------------------------------------------------------*/
+i#burguer {
+    background-color:var(--cor2);
+    color: white;
     display: block;
     text-align: center;
-    height: 5vh;
-    width: 100vw;
-    padding-top: 10px;
-    color: white;
-    background-color:var(--cor2);
-    cursor: pointer;
-  
+    padding: 10px;
+}
+i#burguer:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer
+}
+menu {
+    display: none;
 }
 
 #itens {
@@ -60,6 +63,7 @@ body > div > i {
     height: 100%;
     text-align: center;
 }
+
 
 #itens > ul > li {
     height: 100%;
@@ -75,10 +79,7 @@ body > div > i {
     font-size: 20px;
     
 }
-#itens > ul :hover {
-    background-color: #1D3047;
-    color: white;
-}
+
 
 /*-----------------------------------------------------------*/
 
