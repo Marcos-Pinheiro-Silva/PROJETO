@@ -57,21 +57,21 @@ body > div > i {
 
 #itens {
     background-color: var(--cor1);
-    height: 28vh;
+    height: 100%;
     text-align: center;
 }
 
 #itens > ul > li {
     height: 100%;
     background-color:var(--cor1);
-    padding: 13px;
+    padding: 10px;
     border: 1px solid black;
 }
 
 #itens > ul > li > a {
     display: block;
     text-decoration: none;
-    color:var(--cor2);
+    color:black;
     font-size: 20px;
     
 }
@@ -79,3 +79,12 @@ body > div > i {
     background-color: #1D3047;
     color: white;
 }
+
+/*-----------------------------------------------------------*/
+
+#container > img {
+    height: 480px;
+    width: 100%;
+
+}
+
