@@ -138,12 +138,10 @@ section > h1 {
 }
 
 section {
-    height: 610px;
+    height: 630px;
     margin-top: 10px;
     background-color:#1d3047ee;
 }
-
-
 
 #imagem3 {
     display: flex;
