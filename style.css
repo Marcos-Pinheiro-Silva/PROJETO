@@ -1,49 +1,38 @@
 @charset "UTF-8";
+
 *{ 
     margin: 0;
     padding: 0;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+body, html {
+    background-color: aliceblue;
+}
 :root {
    --cor1:#96DCD1;
    --cor2:#1D3047;
 }
-
 nav {
     display: flex;
-    background-color: rgb(45, 158, 70);
     height: 10vh;
-    width: 100vw;
 }
-
 #logo {
     background-color:var(--cor1);
     height: 100%;
-    width: 35vw;
+    width: 100vw;
 
 }
 #logo > img {
     height: 100%;
     width: 100%;
-    
 }
 
-nav > div > h1 {
-    display: flex;
-    height: 100%;
-    width:65vw; 
-    flex-direction: column;
-    justify-content:center;
-    align-items: middle;
-    background-color:var(--cor1);
-      
-}
-
-nav > div > h1 > span{
-   padding-left: 10px;
-}
 /*----------------------------------------------------------*/
-i#burguer {
+menu {
+    display: none;
+}
+
+#burguer{
     background-color:var(--cor2);
     color: white;
     display: block;
@@ -54,11 +43,9 @@ i#burguer:hover{
     color: rgb(255, 255, 255);
     cursor: pointer
 }
-menu {
-    display: none;
-}
 
-#itens {
+
+#itens{
     background-color: var(--cor1);
     height: 100%;
     text-align: center;
@@ -88,4 +75,86 @@ menu {
     width: 100%;
 
 }
+
+#container2 {
+    margin-top: 35px;
+    height: 500px;
+    background-color: aliceblue;
+   
+}
+ #container2 > picture {
+    display: block;
+    background-image: url(IMAGENS/aculputurap2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+ #container2 > h2,p {
+    background-color: aliceblue;
+    padding: 15px;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
+
+#bottom-action {
+    display: flex;
+    margin: auto;
+    background-color: var(--cor2) ;
+    height: 40px;
+    width: 130px;
+    border-radius: 50px;
+}
+
+#bottom-action :hover {
+    display: flex;
+    margin: auto;
+    height: 40px;
+    width: 200px;
+    border-radius: 50px;
+    background-color: #96DCD1;
+    color: var(--cor2);
+    
+}
+
+#bottom-action > a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: aliceblue;
+    height: 40px;
+    width: 100%;
+}
+
+section > h1 {
+    padding: 20px;
+    text-align: center;
+    background-color: #1d3047;
+    color: #96DCD1;
+    font-family: "Quicksand", sans-serif;
+}
+
+section {
+    height: 550px;
+    margin-top: 10px;
+    background-color:#1d3047ee;
+}
+
+
+
+#imagem3 {
+    display: flex;
+    margin: auto;
+    background-image: url(IMAGENS/aculputurap3.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 33px;
+    height: 450px;
+    width: 80%;    
+}
+
 
