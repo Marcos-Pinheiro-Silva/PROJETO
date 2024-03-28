@@ -138,7 +138,8 @@ section > h1 {
 }
 
 section {
-    height: 90vh;
+    display: block;
+    height: 100;
     margin-top: 10px;
     background-color:#1d3047ee;
 }
@@ -148,11 +149,77 @@ section {
     margin: auto;
     background-image: url(IMAGENS/aculputurap3.jpg);
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     margin-top: 33px;
-    height: 50vh;
-    width: 80%;    
+    height: 80vh;
+}
+ section p {
+    padding: 20px;
+    font-family: "Quicksand", sans-serif;
+    color: var(--cor1);
+    background-color:#1d304700;
+    text-align: justify;
+
 }
 
+#imagem4 {
+    display: flex;
+    margin: auto;
+    background-image: url(IMAGENS/aculputurap4.jpg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 33px;
+    height: 80vh;
+}
 
+#bottom-action2 {
+    display: flex;
+    margin: auto;
+    background-color: var(--cor1) ;
+    height: 40px;
+    width: 130px;
+    border-radius: 50px;
+}
+
+#bottom-action2 :hover {
+    display: flex;
+    margin: auto;
+    height: 40px;
+    width: 200px;
+    border-radius: 50px;
+    background-color:var(--cor2);
+    color: var(--cor1);
+    box-shadow: 4px solid #96DCD1;
+    
+}
+
+#bottom-action2 > a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    height: 40px;
+    width: 100%;
+    font-weight: bolder;
+}
+
+#imagem5 {
+    display: flex;
+    margin: auto;
+    background-image: url(IMAGENS/aculputurap5.jpg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 33px;
+    height: 80vh;
+}
+#title-f { 
+    background-color: var(--cor1);
+    padding: 20px;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
