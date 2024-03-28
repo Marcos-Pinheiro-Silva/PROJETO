@@ -18,13 +18,17 @@ nav {
 }
 #logo {
     background-color:var(--cor1);
-    height: 100%;
     width: 100vw;
+    background-image: url(IMAGENS/LOGO.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
 
 }
 #logo > img {
     height: 100%;
     width: 100%;
+    
 }
 
 /*----------------------------------------------------------*/
