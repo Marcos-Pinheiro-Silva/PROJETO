@@ -1,19 +1,266 @@
 @charset "UTF-8";
+/*Pequenas Telas: até 600px
+Celular: de 600px até 768px
+tablet: de 768 até 992
+Desktop: de 992px até 1200px
+Grandes telas: acima de 1200
+*/
+:root {
+    --cor1:#96DCD1;
+    --cor2:#1D3047;
+}
 
-@media screen and (min-width:768px) {
-    i#burguer {
-        display: none;
-    }
+@media screen and (min-width:768px) and (max-width:992px) {
 
     menu {
         display: block;
     }
 
-    menu >ul > li {
+    #imgcelular {
+         display: none;
+    }
+
+    i#burguer {
+        display: none;
+    }
+
+    #itens > ul {
+        padding: 10px;
+    }
+    #container2 {
+       height: 80vh;
+       
+    }
+
+    
+    #itens > ul > li {
         display: inline-block;
+        border-radius: 20px;
+        border: 2px solid #1D3047;
+        background-color: var(--cor2);
+        padding: 0px;
     }
     
-    main {
-        width: 768px;
+    #itens > ul > li > a{
+        display: inline-block;
+        padding: 0px;
+        padding: 10px;
+        color: aliceblue;
     }
+    
+    #bottom-action{
+        display: none;
+    }
+    
+    #bottom-actionh2 {
+        display: flex;
+        margin: auto;
+        background-color: var(--cor2) ;
+        height: 40px;
+        width: 130px;
+        border-radius: 50px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    #imagem3 > h1 {
+        display: none;
+    }
+    
+    #imagem3 img {
+        display: none;
+    }
+    #bottom-action1{
+        display: flex;
+        margin: auto;
+        background-color: var(--cor1) ;
+        height: 40px;
+        width: 130px;
+        border-radius: 50px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    #bottom-action1 a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        height: 100%;
+        width: 100%;
+        font-weight: bolder;
+        font-family:"Quicksand", sans-serif;
+    }
+    #bottom-action1 a:hover{
+        background-color: var(--cor1);
+        color: var( --cor2);
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px aliceblue;
+    }
+    
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+
+        #burguer {
+            display: none;
+        }
+
+        #imgcelular {
+            display: none;
+        }
+
+        #container2 { 
+            height: 50vh;
+            width: 97.9vw;
+            margin-top: 0px;
+        }
+
+    
+        #container2 > picture {
+            display: flex;
+            margin: auto;
+            height: 100%;
+            width: 44%;
+            float: right;
+            border-radius: 50%;
+        
+        }
+
+        #box-action{
+            border-top-right-radius: 20px;
+        }
+        
+        #container2 h2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            float:left ;
+            height: 60%;
+            width: 56%;
+            margin-top: 142px;
+            text-align: left;
+            background-color: var(--cor2);
+            border-bottom-right-radius: 20px;
+        }  
+
+         #box-action > p {
+            background-color: var(--cor2);
+            text-align: left;
+            text-align: center;
+            margin: auto;
+            border-radius: 50px;
+            color: var(--cor1);
+        }
+        
+
+        #bottom-action {
+            display: none;
+        }
+        #bottom-actionh2{
+            height: 30px;
+            border-radius: 10px;
+            padding: 10px;
+            width: 25%;
+            background-color:var(--cor1);
+        }
+        #bottom-actionh2 a {
+            color: var(--cor2);
+        }
+        #bottom-actionh2:hover {
+            background-color: var(--cor1);
+            color: var( --cor2);
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px aliceblue;
+        }
+
+        section h1 {
+            display: none;
+        }
+
+        
+        #imagem3 {
+            background-image: none;
+        }
+
+        #imagem3 {
+            position: relative;
+            display: block;
+            background-image: url(../IMAGENS/bg1.png);
+            background-position: center center;
+            background-size: cover;
+            height: 550px;
+            box-sizing: 0;
+            margin: 0px;
+        }
+
+        #imagem3 h1 {
+            display: block;
+            text-align: center;
+            padding-top: 15px;
+            padding-right: 100px;
+            padding-left: 100px;
+            color: aliceblue;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.555);
+            font-size: 20px;
+        }
+        #imagem3 img {
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -4%);
+            height: 52%;
+            width: 30%;
+        }
+
+        section p {
+            margin-right:53px ;
+            margin-left:53px ;
+            font-family: "Quicksand", sans-serif;
+        }
+        
+        #imagem4, #imagem5 {
+            display: none;
+        }
+        #sectionp2 {
+            display: none;
+        }
+
+        .apagar {
+            display: none;
+        }
+
+        #bottom-action2  {
+            display: none;
+            margin-top: 15px;
+        }
+        #coluna3 {
+            display: flex;
+        }
+        #coluna3 p {
+            margin: 10px;
+            padding: 0px;
+            width: 50vw;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: var(--cor1);
+            color: var(--cor2);
+            font-family: "Quicksand", sans-serif;
+            font-size: 17px;
+            text-align: justify;
+        }
+        #title-f {
+            display: flex;
+            align-items: center;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        #bottom-action1{
+            display: none;
+        }
+        #bottom-action2 {
+            display: block;
+        }
 }
