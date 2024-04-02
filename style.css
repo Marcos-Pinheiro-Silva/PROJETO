@@ -73,10 +73,11 @@ i#burguer:hover{
 
 
 /*-----------------------------------------------------------*/
-
 #container > img {
     height: 480px;
     width: 100%;
+    aspect-ratio: 3/4;
+    
 
 }
 
@@ -211,11 +212,13 @@ section {
     height: 80vh;
 }
  section p {
+    display: block;
     padding: 20px;
     font-family: "Quicksand", sans-serif;
     color: var(--cor1);
     background-color:#1d304700;
     text-align: justify;
+    margin: auto;
 
 }
 
@@ -227,10 +230,35 @@ section {
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-top: 33px;
     height: 80vh;
 }
 
+#bottom-action1{
+    display: flex;
+    margin: auto;
+    background-color: var(--cor1);
+    height: 40px;
+    width: 130px;
+    border-radius: 50px;
+}
+#bottom-action1:hover {
+    background-color: var(--cor1);
+    color: var( --cor2);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px aliceblue;
+}
+
+#bottom-action1 a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    height: 40px;
+    width: 100%;
+    font-weight: bolder;
+}
 #bottom-action2 {
     display: flex;
     margin: auto;
@@ -242,9 +270,9 @@ section {
 
 #bottom-action2 :hover {
     background-color: var(--cor1);
-        color: var( --cor2);
-        border-radius: 20px;
-        box-shadow: 0px 0px 20px aliceblue;
+    color: var( --cor2);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px aliceblue;
     
 }
 
@@ -279,4 +307,7 @@ section {
 
 #box-action {
     margin-top: -60px;
+}
+.apagar{
+    text-align: center;
 }
