@@ -59,15 +59,26 @@ i#burguer:hover{
 #itens > ul > li {
     height: 100%;
     background-color:var(--cor2);
-    padding: 10px;
     border: 1px solid black;
+}
+#itens > ul > li:hover {
+    background-color:var(--cor1);
+    color: var(--cor2);
+    transition: 0.5s;
 }
 
 #itens > ul > li > a {
     display: block;
+    height: 100%;
+    padding: 10px;
     text-decoration: none;
     color:var(--cor1);
     font-size: 20px;
+    
+}
+#itens > ul > li > a:hover{
+    display: block;
+    color: var(--cor2);
     
 }
 
