@@ -14,6 +14,7 @@ Grandes telas: acima de 1200
 
     menu {
         display: block;
+        display: none;
     }
 
     #imgcelular {
@@ -27,12 +28,91 @@ Grandes telas: acima de 1200
     #itens > ul {
         padding: 10px;
     }
-    #container2 {
-       height: 80vh;
-       
-    }
 
     
+    #container2 {
+       height: 500px;
+       margin: 0px;
+       
+    }
+    #container2 >picture{
+        display: block;
+        box-sizing: border-box;
+        height: 400px;
+        background-color:var(--cor2);
+        
+    }
+    
+    
+    #h11{
+        height: 50px;
+        padding-top: 20px;
+        margin-right:50px ;
+        margin-bottom: -22px;
+        margin-left: 50px;
+        text-align: center;
+        
+    }
+
+    #pin{
+        margin-right:50px ;
+        margin-left: 50px;
+        text-align: justify;
+        
+    }
+    
+    #bottom-actionh2 {
+        display: flex;
+        margin: auto;
+        background-color: var(--cor2) ;
+        height: 40px;
+        width: 130px;
+        border-radius: 50px;
+    }
+    section h1 {
+        background-image: linear-gradient(to right, #96DCD1,#1D3047,#1D3047, #1D3047,#1D3047, #96DCD1);
+        padding-right:50px;
+        padding-left:50px;
+    }
+    #imagem3{
+        margin-top: 0px;
+    }
+    #sectionp2{
+        padding-right:50px;
+        padding-left:50px;
+        background-color: aliceblue;
+        color: var(--cor2);
+        font-size: 1.1em;
+    }
+    
+    .apagar{
+        padding-right:50px;
+        padding-left:50px;
+        background-color: aliceblue;
+        color: var(--cor2);
+        font-size: 1.1em;
+    }
+    section {
+        margin-top: 50px;
+    }
+    #bottom-action1{
+        display: flex;
+        margin: auto;
+        background-color: var(--cor1) ;
+        height: 40px;
+        width: 130px;
+        border-radius: 50px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        
+    }
+    #imagem5{
+        margin-top: 0px;
+    }
+    section p {
+        padding-right:50px;
+        padding-left:50px;
+    }
     #itens > ul > li {
         display: inline-block;
         border-radius: 20px;
@@ -52,16 +132,7 @@ Grandes telas: acima de 1200
         display: none;
     }
     
-    #bottom-actionh2 {
-        display: flex;
-        margin: auto;
-        background-color: var(--cor2) ;
-        height: 40px;
-        width: 130px;
-        border-radius: 50px;
-        margin-bottom: 50px;
-        margin-top: 50px;
-    }
+    
 
     #imagem3 > h1 {
         display: none;
@@ -70,16 +141,7 @@ Grandes telas: acima de 1200
     #imagem3 img {
         display: none;
     }
-    #bottom-action1{
-        display: flex;
-        margin: auto;
-        background-color: var(--cor1) ;
-        height: 40px;
-        width: 130px;
-        border-radius: 50px;
-        margin-bottom: 50px;
-        margin-top: 50px;
-    }
+    
 
     #bottom-action1 a {
         display: flex;
@@ -109,54 +171,88 @@ Grandes telas: acima de 1200
         #imgcelular {
             display: none;
         }
-
-        #container2 { 
-            height: 50vh;
-            width: 97.9vw;
-            margin-top: 0px;
+        main {
+            margin-right:50px ;
+            margin-left:50px ;
         }
-
-    
+        #container2 {
+            height: 400px;
+            width: 100%;
+            margin-top: -10px;
+            margin-bottom: -9px;
+            background-color: var(--cor2);
+            
+        }
+        
+        div{
+            height: 100%;
+            width: 100%;
+        }
+        
         #container2 > picture {
-            display: flex;
+            display: block;
+            background-size: contain;
             margin: auto;
             height: 100%;
             width: 44%;
             float: right;
-            border-radius: 50%;
-        
+            background-color: var(--cor2);
         }
-
-        #box-action{
-            border-top-right-radius: 20px;
+        #h11 {
+            
         }
-        
+        #pin {
+            margin-top: 30px;
+            background-color: red;
+            padding-top: 10px;
+        }
         #container2 h2 {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            float:left ;
-            height: 60%;
+            display: block;
+            float: left;
+            height: 100%;
             width: 56%;
-            margin-top: 142px;
-            text-align: left;
+            margin: auto;
             background-color: var(--cor2);
-            border-bottom-right-radius: 20px;
         }  
-
-         #box-action > p {
+       
+    
+        #box-action  p {
             background-color: var(--cor2);
+            margin-top: 18px;
+            padding-top: 40px;
             text-align: left;
             text-align: center;
-            margin: auto;
-            border-radius: 50px;
             color: var(--cor1);
         }
         
+        
 
         #bottom-action {
-            display: none;
+            display: block;
+            width: 100%;
+            border-radius: 0px;
+            margin-top: 20px;
+            background-color: #1d304700;
         }
+        #bottom-action a {
+            background-color:var(--cor1);
+            width: 12%;
+            margin: auto;
+            font-weight: bold;
+            border-radius: 25px;
+            color: var(--cor2);
+            
+        }
+        #bottom-action a:hover{
+            width: 14%;
+            font-weight: bold;
+            margin: auto;
+            border-radius: 25px;
+            box-shadow: 0px 0px 500px aliceblue;
+            transition: 0.5s;
+
+        }
+
         #bottom-actionh2{
             height: 30px;
             border-radius: 10px;
@@ -166,12 +262,18 @@ Grandes telas: acima de 1200
         }
         #bottom-actionh2 a {
             color: var(--cor2);
+            
         }
         #bottom-actionh2:hover {
             background-color: var(--cor1);
             color: var( --cor2);
+            width: 30%;
             border-radius: 10px;
-            box-shadow: 0px 0px 20px aliceblue;
+            box-shadow: 0px 0px 500px aliceblue;
+            transition: 0.5s;
+        }
+        #co2{
+            margin-top: 0px;
         }
 
         section h1 {
@@ -205,13 +307,19 @@ Grandes telas: acima de 1200
             font-size: 20px;
         }
         #imagem3 img {
-            display: block;
+            display: flex;
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -4%);
             height: 52%;
             width: 30%;
+            object-fit: cover;
+        }
+
+        #img3-1 {
+
+            height: 10px;
         }
 
         section p {
@@ -232,8 +340,17 @@ Grandes telas: acima de 1200
         }
 
         #bottom-action2  {
-            display: none;
+            display: block;
+            width: 12%;
             margin-top: 15px;
+            margin: auto;
+        }
+        
+        #bottom-action2:hover {
+            background-color: var(--cor1);
+            width: 13%;
+            border: 0px 0px 500px aliceblue;
+            transition: 0.5s;
         }
         #coluna3 {
             display: flex;
@@ -248,7 +365,7 @@ Grandes telas: acima de 1200
             color: var(--cor2);
             font-family: "Quicksand", sans-serif;
             font-size: 17px;
-            text-align: justify;
+            text-align: center;
         }
         #title-f {
             display: flex;
@@ -260,11 +377,9 @@ Grandes telas: acima de 1200
         #bottom-action1{
             display: none;
         }
-        #bottom-action2 {
-            display: block;
-        }
+        
 }
-@media screen and (min-width:1200px){
+@media screen and (min-width:1200px)and (max-width:5000px) {
     #logo{
         background-color: var(--cor2);
     }
@@ -275,10 +390,14 @@ Grandes telas: acima de 1200
     #imgcelular {
         display: none;
     }
-
+    main {
+        background-color: red;
+        margin-left:20%; ;
+        margin-right: 20%;
+    }
     #container2 { 
         height: 650px;
-        width: 97.9vw;
+        width: 100%;
         margin-top: 0px;
 
     }
