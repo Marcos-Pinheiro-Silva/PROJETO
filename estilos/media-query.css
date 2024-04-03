@@ -163,7 +163,6 @@ Grandes telas: acima de 1200
 }
 
 @media screen and (min-width:992px) and (max-width:1200px) {
-
         #burguer {
             display: none;
         }
@@ -172,8 +171,9 @@ Grandes telas: acima de 1200
             display: none;
         }
         main {
-            margin-right:50px ;
-            margin-left:50px ;
+            margin-right:100px ;
+            margin-left:100px ;
+            box-shadow: 0px 0px 10px black;
         }
         #container2 {
             height: 400px;
@@ -197,9 +197,6 @@ Grandes telas: acima de 1200
             width: 44%;
             float: right;
             background-color: var(--cor2);
-        }
-        #h11 {
-            
         }
         #pin {
             margin-top: 30px;
